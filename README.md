@@ -29,26 +29,26 @@ Git官方教程，原视频在[YouTube](https://www.youtube.com/watch?v=r8jQ9hVA
 `touch hello.md`
 
 4. 运行 `git status` 指令
-![第一次运行git status](https://github.com/copilot?reference_id=file-ZouJM15/GitPractice@659c20b6ca2d87119ebe0f3f3bf3dff594698c41:images/lecture1/121212.png)
+![第一次运行git status](images\lecture1\121212.png)
 发现出错，因为git尚未初始化。初始化就是指创建一个新的Git仓库。
 所以运行 `git init` 。这是第一个指令，这样git就可以跟踪我们的更改了
 
 5. 再次运行 `git status`
-![再次运行git status](https://github.com/copilot?reference_id=file-ZouJM15/GitPractice@659c20b6ca2d87119ebe0f3f3bf3dff594698c41:images/lecture1/121909.png)  
+![再次运行git status](images\lecture1\121909.png)  
 就可以看到正在跟踪这个文件夹下的所有文件
 这会显示我们的更改以及它们是否暂存，还有git正在跟踪哪些文件
 
 6. 运行 `git add .`
 这是将工作目录中的所有更改添加到暂存区。
 然后再运行 `git status` ，可以看到被跟踪的文件呈现出不同的颜色，这说明他们目前位于暂存区
-![再次运行git status](https://github.com/copilot?reference_id=file-ZouJM15/GitPractice@659c20b6ca2d87119ebe0f3f3bf3dff594698c41:images/lecture1/122031.png)
+![再次运行git status](images\lecture1\22031.png)
 
-7. 返回vscode，然后再hello.md中随便写点什么，保存并返回终端输入 `git status` ，看到以下内容:![再次运行git status](https://github.com/copilot?reference_id=file-ZouJM15/GitPractice@659c20b6ca2d87119ebe0f3f3bf3dff594698c41:images/lecture1/122457.png)
+7. 返回vscode，然后再hello.md中随便写点什么，保存并返回终端输入 `git status` ，看到以下内容:![再次运行git status](images\lecture1\122457.png)
 说明hello.md，readme.md已发生改变，且有一张刚存入的截图还未被跟踪，再运行 `git add .`、`git status`，可以看到都存入了暂存区
-![再次运行git status](https://github.com/copilot?reference_id=file-ZouJM15/GitPractice@659c20b6ca2d87119ebe0f3f3bf3dff594698c41:images/lecture1/122852.png)
+![再次运行git status](images\lecture1\122852.png)
 
 8. 运行 `git commit -m "initial commit"` ，来提交这些更改。此命令允许我们保存更改并附加消息。
-![运行git commit](https://github.com/copilot?reference_id=file-ZouJM15/GitPractice@659c20b6ca2d87119ebe0f3f3bf3dff594698c41:images/lecture1/130622.png)
+![运行git commit](images\lecture1\130622.png)
 
 **需要注意的是，会经常用到 `git status`、`git add`、`git commit`指令，所以练习这些命令很重要。**
 
