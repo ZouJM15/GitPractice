@@ -2,6 +2,19 @@
 Git官方教程，原视频在[YouTube](https://www.youtube.com/watch?v=r8jQ9hVA2qs&list=PL0lo9MOBetEFcp4SCWinBdpml9B2U25-f)。
 本人又操作了一遍，这是总结。
 
+常用指令
+```bash
+git init
+git status
+git remote add origin <git url>
+git add .
+git commit -m "初次提交"
+git branch -M main
+git push -u origin main
+
+git remote set-url origin <git url>
+```
+
 <!-- [TOC]{level=2} -->
 ## 目录
 - [Lecture 1](#Lecture-1)
