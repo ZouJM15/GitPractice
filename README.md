@@ -16,6 +16,7 @@ git remote set-url origin <git url>
 ```
 
 <!-- [TOC]{level=2} -->
+
 ## 目录
 - [Lecture 1](#Lecture-1)
 - [Lecture 2](#lecture-2)
@@ -53,7 +54,7 @@ git remote set-url origin <git url>
 6. 运行 `git add .`
 这是将工作目录中的所有更改添加到暂存区。
 然后再运行 `git status` ，可以看到被跟踪的文件呈现出不同的颜色，这说明他们目前位于暂存区
-![再次运行git status](images\lecture1\122031.png)
+![再次运行git status](images\lecture1\22031.png)
 
 7. 返回vscode，然后再hello.md中随便写点什么，保存并返回终端输入 `git status` ，看到以下内容:![再次运行git status](images\lecture1\122457.png)
 说明hello.md，readme.md已发生改变，且有一张刚存入的截图还未被跟踪，再运行 `git add .`、`git status`，可以看到都存入了暂存区
